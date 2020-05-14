@@ -38,7 +38,7 @@ export class Product extends Component {
                             {title}
                         </p>
                         <h5 className="text-blue font-italic mb-0">
-                            <span classname="mr-1 font-weight-bold">Rs.{700*price}</span>
+                            <span classname="mr-1 font-weight-bold">$ {price}</span>
                         </h5>
                     </div>
 

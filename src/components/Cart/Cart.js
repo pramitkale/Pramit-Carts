@@ -6,8 +6,11 @@ import {ProductConsumer} from "../../Context"
 import CartList from "./CartList"
 import CartTotals from "./CartTotals"
 
+
 export class Cart extends Component {
+    
     render() {
+        
         return (
             <section>
                 <ProductConsumer>
@@ -19,7 +22,8 @@ export class Cart extends Component {
                                 <Title title="Cart" name="Your"/>
                                 <CartColumns/>
                                 <CartList value={value}/>
-                                <CartTotals value={value}/>
+                                <CartTotals value={value} history={this.props.history}/>
+                                
                                 </>
                             )
                         }

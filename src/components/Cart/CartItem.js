@@ -16,7 +16,7 @@ function CartItem({item,value}) {
             </div>
             <div className="col-10 mx-auto col-lg-2">
                 <span className="d-lg-none">Price :</span>
-                Rs.{700*price}
+                $ {price}
             </div>
             <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0">
                 <div className="d-flex justify-content-center">
@@ -35,7 +35,7 @@ function CartItem({item,value}) {
             </div>
 
             <div className="col-10 mx-auto col-lg-2">
-                <strong>Item total : Rs.{700*total}</strong>
+                <strong>Item total : $ {total}</strong>
                 
             </div>
 
